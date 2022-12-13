@@ -52,6 +52,7 @@ Reference: https://azuresdkdocs.blob.core.windows.net/$web/java/azure-messaging-
 
 
 ###### Submit message with low TTL to send to DLQ
+![image](https://user-images.githubusercontent.com/85903942/207406898-0e2e477c-a907-4e86-8dae-8737c7c91261.png)
 
 
 ###### Processing DLQ messages: 
