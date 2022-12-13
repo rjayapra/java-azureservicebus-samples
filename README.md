@@ -40,15 +40,19 @@ Also Throws:
 	* HttpResponseException - If the request body was invalid, the queue quota is exceeded, or an error occurred processing the request.
 	* NullPointerException - if queueName is null.
 	* IllegalArgumentException - if queueName is an empty string.
-	
+
+![image](https://user-images.githubusercontent.com/85903942/207407731-f79b303c-ebe8-42ad-8452-c00c246d25d0.png)
+
+Topics created and message sent:
+
+![image](https://user-images.githubusercontent.com/85903942/207407982-adfebf17-6e77-4050-96ef-f19fcc517c34.png)
+
 
 ---
 ##### 2. AzureServiceBusDLQ
 ---
 
 Azure Service Bus queues and topic subscriptions provide a secondary subqueue, called a dead-letter queue (DLQ). The dead-letter queue doesn't need to be explicitly created and can't be deleted or otherwise managed independent of the main entity.
-
-Reference: https://azuresdkdocs.blob.core.windows.net/$web/java/azure-messaging-servicebus/7.0.0-beta.7/com/azure/messaging/servicebus/models/SubQueue.html
 
 
 ###### Submit message with low TTL to send to DLQ
@@ -68,5 +72,8 @@ Completed processing messages
 
 Alternate Option: https://github.com/Azure/azure-service-bus/blob/master/samples/Java/azure-servicebus/DeadletterQueue/src/main/java/com/microsoft/azure/servicebus/samples/deadletterqueue/DeadletterQueue.java
 
+References: 
+https://azuresdkdocs.blob.core.windows.net/$web/java/azure-messaging-servicebus/7.0.0-beta.7/com/azure/messaging/servicebus/models/SubQueue.html
+https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-java-how-to-use-topics-subscriptions
 
 	
