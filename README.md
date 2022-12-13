@@ -73,7 +73,7 @@ Completed processing messages
 Alternate Option: https://github.com/Azure/azure-service-bus/blob/master/samples/Java/azure-servicebus/DeadletterQueue/src/main/java/com/microsoft/azure/servicebus/samples/deadletterqueue/DeadletterQueue.java
 
 References: 
-https://azuresdkdocs.blob.core.windows.net/$web/java/azure-messaging-servicebus/7.0.0-beta.7/com/azure/messaging/servicebus/models/SubQueue.html
-https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-java-how-to-use-topics-subscriptions
+* https://azuresdkdocs.blob.core.windows.net/$web/java/azure-messaging-servicebus/7.0.0-beta.7/com/azure/messaging/servicebus/models/SubQueue.html
+* https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-java-how-to-use-topics-subscriptions
 
 	
